@@ -1,0 +1,43 @@
+
+
+.waterMain {
+    position: absolute;
+    margin-top: 220px;
+
+}
+
+.red {
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(to right, #ea2c2c, #ea285f, #f21e5a);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green {
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(to right, #1aec7f, #17d15c, #1dda0c);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow {
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(to right, #f5d130, #f1f129, #efe229);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dateText {
+    line-height: 4px;
+    margin-left: 37px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+p {
+    font-size: 12px;
+}
+

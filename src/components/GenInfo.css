@@ -1,0 +1,24 @@
+
+.infoMain {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.secondaryInfo {
+    margin-top: 10px;
+    line-height: 8px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.scienceName {
+    font-style: italic;
+    font-size: 13px;
+}
+
+.family {
+    font-size: 13px;
+}

@@ -1,0 +1,41 @@
+.modalStyle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    padding: 15px;
+    z-index: 1000;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+}
+
+.Xicon {
+    position: fixed;
+    font-size: 40px;
+    margin-left: 8px;
+}
+
+.Xicon :hover {
+    color:#0be092
+}
+
+.plantImage {
+    width: 300px;
+    border-radius: 15px;
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    box-shadow: rgba(0,0,0,0.6) 0px 5px 15px;
+}

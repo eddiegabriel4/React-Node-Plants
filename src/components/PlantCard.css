@@ -1,0 +1,10 @@
+
+
+.mainCard {
+    height: 250px;
+    width: 330px;
+    background-color: white;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: rgba(0,0,0,0.4) 0px 5px 15px;
+}

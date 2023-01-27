@@ -1,0 +1,17 @@
+
+.cardImage {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 60px;
+    z-index: 1;
+
+}
+
+.actualImage {
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: rgba(0,0,0,0.6) 0px 5px 15px;
+}

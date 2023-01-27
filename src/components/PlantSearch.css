@@ -1,0 +1,198 @@
+.search {
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.searchInput {
+    display: flex;
+    padding: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 25px;
+    padding: 5px 0px;
+    border-bottom: 2px solid #d9d9d9;
+    
+}
+
+.searchInput:after, .searchInput:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #0be092;
+    transition: .6s;
+}
+
+.searchInput:after {
+    right: 50%;
+}
+
+.searchInput:before {
+    left: 50%;
+}
+
+.searchInput.focus:after, .searchInput.focus:before {
+    width: 50%;
+}
+
+.input {
+    position:relative;
+    width:300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    color:black;
+    margin-right: 90px;
+    
+
+}
+
+.i {
+    font-size: 25px;
+}
+
+.dataResult {
+    margin-top: -5px;
+    width: 260px;
+    height: 30vh;
+    padding-left: 20px;
+    padding-right: 25px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult .dataItem {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+    
+}
+
+.dataItem p {
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.dataResult a {
+    text-decoration: none;
+    
+    
+}
+
+.dataResult a:hover {
+    background-color: #0be092;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.selectedPlant {
+    position: fixed;
+    top: 67%;
+    left:2%;
+}
+
+.selectedPlantText {
+    padding:0;
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.selectedPlant p {
+    font-size: 15px;
+    padding-top: 5px;
+
+}
+
+.scientific {
+    font-style: italic;
+}
+
+.btnn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #ea2c2c, #b13055, #eb3392);
+    cursor: pointer;
+    color: black;
+    background-size: 200%;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    text-align: center;
+    caret-color: transparent;
+}
+
+
+.btnn:hover {
+    background-position: right;
+}
+
+.btnng {
+    display: block;
+    width: 200px;
+    height: 80px;
+    border-radius: 25px;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #1aec9f, #17d15c, #1dda0c);
+    cursor: pointer;
+    color: black;
+    background-size: 200%;
+    transition: 0.5s;
+    position: fixed;
+    top: -10%;
+    left: 80%;
+    text-align: center;
+    caret-color: transparent;
+}
+
+
+.btnng:hover {
+    background-position: right;
+}
+
+.date {
+    border: none;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    height: 30px;
+    align-items: center;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 16px;
+    
+}
+
+.datesection {
+    position: fixed;
+    margin-left: 5px;
+    top: 45%;
+    left:3%;
+}
+
+.all {
+    
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    margin-left: 10px;
+}
+
+
