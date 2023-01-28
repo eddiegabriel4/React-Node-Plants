@@ -1,5 +1,5 @@
 Hosted at: https://unique-crepe-7e3659.netlify.app/home
-(not fully optomized for mobile)
+(designed for desktop)
 
 
 
