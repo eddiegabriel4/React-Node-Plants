@@ -5,7 +5,13 @@
     width: 330px;
     background-color: white;
     border-radius: 12px;
-    position: relative;
+    position: absolute;
     box-shadow: rgba(0,0,0,0.4) 0px 5px 15px;
-    z-index: -1;
+    z-index: 1;
+    
+}
+
+.noCut {
+    position: fixed;
+    z-index: 100;
 }

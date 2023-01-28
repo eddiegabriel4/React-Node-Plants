@@ -9,7 +9,7 @@ function PlantImage({img_url}) {
     return (
         
         <div className='cardImage'>
-            <Tilt tiltMaxAngleY='14' tiltMaxAngleX='14' glareEnable='true' glareMaxOpacity={0.3} glareColor="#ffffff" glarePosition='all' glareBorderRadius='15px'>
+            <Tilt className = "tilty" tiltMaxAngleY='14' tiltMaxAngleX='14' glareEnable='true' glareMaxOpacity={0.3} glareColor="#ffffff" glarePosition='all' glareBorderRadius='15px'>
             <img className='actualImage' src={img_url}></img>
             </Tilt>
         </div>
