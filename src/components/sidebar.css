@@ -46,7 +46,7 @@
     left: -100%;
     transition: 850ms;
     border-right: 4px solid #000000;
-    z-index: 1;
+    z-index: 100000;
 }
 
 .side-menu.active {
