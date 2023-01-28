@@ -12,6 +12,6 @@
 }
 
 .noCut {
-    position: fixed;
+    position: sticky;
     z-index: 100;
 }
