@@ -3,7 +3,8 @@ Hosted at: https://unique-crepe-7e3659.netlify.app/home
 
 
 
-<img width="1728" alt="Screenshot 2023-01-28 at 4 22 23 PM" src="https://user-images.githubusercontent.com/81613773/215297373-0a12f44b-61b5-444e-818f-9bf8214593de.png">
+<img width="1728" alt="Screenshot 2023-01-28 at 4 28 07 PM" src="https://user-images.githubusercontent.com/81613773/215297395-d9429cef-595b-4c1d-a129-6fc7688731d4.png">
+
 
 
 
